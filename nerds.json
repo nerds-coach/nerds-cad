@@ -1,5 +1,13 @@
 {
   "app": "cadcraft",
   "upstream": "storytold/cadcraft",
-  "name": "NERDS CAD"
+  "name": "NERDS CAD",
+  "upstream_name": "CADCraft",
+  "patches": [
+    {
+      "file": "crates/mcp/src/backend.rs",
+      "old": ".args([\"-a\", \"CADCraft\", \"--args\"",
+      "new": ".args([\"-a\", \"NERDS CAD\", \"--args\""
+    }
+  ]
 }
