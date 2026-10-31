@@ -1,0 +1,104 @@
+NERDS names: 96 changes, 6 kept, 0 warnings
+
+rust  apps/cadcraft/build.rs:15  'CADCraft' -> 'NERDS CAD'
+rust  apps/cadcraft/build.rs:16  'CADCraft computer-aided design' -> 'NERDS CAD computer-aided design'
+rust  apps/cadcraft/build.rs:17  'Learning Machines LLC' -> 'NERDS Craft'
+rust  apps/cadcraft/src/main.rs:66  'CADCraft workspace: {error}' -> 'NERDS CAD workspace: {error}'
+rust  apps/cadcraft/src/main.rs:223  'CADCraft update helper failed: {e}' -> 'NERDS CAD update helper failed: {e}'
+rust  apps/cadcraft/src/main.rs:260  'CADCraft' -> 'NERDS CAD'
+kept  apps/cadcraft/src/main.rs:304  "CADCraft",
+rust  apps/cadcraft/src/main.rs:314  'CADCraft workspace: {error}' -> 'NERDS CAD workspace: {error}'
+rust  apps/cadcraft/src/native_menu.rs:53  'CADCraft' -> 'NERDS CAD'
+rust  apps/cadcraft/src/native_menu.rs:54  'About CADCraft' -> 'About NERDS CAD'
+rust  apps/cadcraft/src/native_menu.rs:58  'Hide CADCraft' -> 'Hide NERDS CAD'
+rust  apps/cadcraft/src/native_menu.rs:58  'Hide CADCraft' -> 'Hide NERDS CAD'
+rust  apps/cadcraft/src/native_menu.rs:61  'Quit CADCraft' -> 'Quit NERDS CAD'
+rust  apps/cadcraft/src/native_menu.rs:61  'Quit CADCraft' -> 'Quit NERDS CAD'
+rust  apps/cadcraft/src/native_menu.rs:72  'About CADCraft' -> 'About NERDS CAD'
+rust  crates/doc/src/dynblock/apply.rs:179  "A lookup table sets {other}, which CADCraft can't change yet." -> "A lookup table sets {other}, which NERDS CAD can't change yet."
+rust  crates/doc/src/dynblock/apply.rs:306  "CADCraft can't change {name} yet." -> "NERDS CAD can't change {name} yet."
+rust  crates/doc/src/library/files.rs:194  "linetype {name}: shape {shape} needs an SHX shape file, which CADCraft can't read; left ou" -> "linetype {name}: shape {shape} needs an SHX shape file, which NERDS CAD can't read; left o"
+rust  crates/doc/src/plotstyle.rs:364  'not a CADCraft plot style table: {e}' -> 'not a NERDS CAD plot style table: {e}'
+rust  crates/doc/src/plotstyle.rs:367  'plot style table format version {n} is newer than this CADCraft reads' -> 'plot style table format version {n} is newer than this NERDS CAD reads'
+rust  crates/doc/src/plotstyle.rs:368  'not a CADCraft plot style table (no `{FILE_MARKER}`)' -> 'not a NERDS CAD plot style table (no `{FILE_MARKER}`)'
+rust  crates/doc/src/plotter.rs:194  'not a CADCraft plotter configuration: {e}' -> 'not a NERDS CAD plotter configuration: {e}'
+rust  crates/doc/src/plotter.rs:197  'plotter configuration format version {n} is newer than this CADCraft reads' -> 'plotter configuration format version {n} is newer than this NERDS CAD reads'
+rust  crates/doc/src/plotter.rs:198  'not a CADCraft plotter configuration (no `{FILE_MARKER}`)' -> 'not a NERDS CAD plotter configuration (no `{FILE_MARKER}`)'
+rust  crates/doc/src/tables.rs:131  'CADCraft Stroke' -> 'NERDS CAD Stroke'
+rust  crates/dwg/src/lib.rs:92  'DWG: the file is {}, larger than the {} CADCraft opens' -> 'DWG: the file is {}, larger than the {} NERDS CAD opens'
+rust  crates/dwg/src/lib.rs:584  'DXF: the input is {}, larger than the {} CADCraft converts to DWG' -> 'DXF: the input is {}, larger than the {} NERDS CAD converts to DWG'
+rust  crates/dwg/src/lib.rs:768  "DWG version `{version}` can't be written (CADCraft writes {})" -> "DWG version `{version}` can't be written (NERDS CAD writes {})"
+rust  crates/dxf/src/lib.rs:26  'drawing too large: {tags} DXF group codes, more than the {limit} CADCraft reads' -> 'drawing too large: {tags} DXF group codes, more than the {limit} NERDS CAD reads'
+rust  crates/engine/src/cmd/blocks/bedit.rs:162  "This is a dynamic block: its parameters and actions are kept but can't be edited in CADCra" -> "This is a dynamic block: its parameters and actions are kept but can't be edited in NERDS "
+rust  crates/engine/src/cmd/exchange.rs:68  '3DORBIT is not available yet: CADCraft draws in 2D (plan view) only' -> '3DORBIT is not available yet: NERDS CAD draws in 2D (plan view) only'
+rust  crates/engine/src/cmd/file.rs:282  "{shown}: the file name is not valid Unicode, so CADCraft can't save back to it" -> "{shown}: the file name is not valid Unicode, so NERDS CAD can't save back to it"
+rust  crates/engine/src/cmd/file/pgp.rs:89  "{} is an external command; CADCraft doesn't run programs from alias files" -> "{} is an external command; NERDS CAD doesn't run programs from alias files"
+rust  crates/engine/src/cmd/plotters.rs:131  'CADCraft PDF' -> 'NERDS CAD PDF'
+rust  crates/engine/src/cmd/plotters.rs:132  'CADCraft PNG' -> 'NERDS CAD PNG'
+rust  crates/engine/src/cmd/plotters.rs:133  'CADCraft SVG' -> 'NERDS CAD SVG'
+rust  crates/engine/src/cmd/plotters.rs:545  'CADCraft PDF' -> 'NERDS CAD PDF'
+rust  crates/engine/src/cmd/table.rs:239  '{e}: not a formula CADCraft can evaluate: {f}' -> '{e}: not a formula NERDS CAD can evaluate: {f}'
+rust  crates/engine/src/cmd/view/named_views.rs:95  'Orthographic views are not available yet: CADCraft views are 2D.' -> 'Orthographic views are not available yet: NERDS CAD views are 2D.'
+rust  crates/engine/src/cmd/view/named_views.rs:309  'Orthographic views are not available yet: CADCraft views are 2D.' -> 'Orthographic views are not available yet: NERDS CAD views are 2D.'
+kept  crates/engine/src/settings_dir.rs:20  set("APPDATA").map(|a| a.join("CADCraft"))
+rust  crates/fonts/src/lib.rs:32  'CADCraft Stroke' -> 'NERDS CAD Stroke'
+rust  crates/io/src/dxf_write/objects.rs:137  'CADCraft Stroke' -> 'NERDS CAD Stroke'
+kept  crates/io/src/pdf.rs:442  creator: "CADCraft".into(),
+kept  crates/io/src/pdf.rs:443  producer: "CADCraft".into(),
+rust  crates/io/src/svg_read.rs:200  "SVG: CADCraft doesn't read these yet, so they were left out: {}" -> "SVG: NERDS CAD doesn't read these yet, so they were left out: {}"
+rust  crates/mcp/src/backend.rs:56  "reply from the control port is longer than {max} bytes; is that CADCraft's control server?" -> "reply from the control port is longer than {max} bytes; is that NERDS CAD's control server"
+rust  crates/mcp/src/backend.rs:108  'CADCraft was opened but its control port {} did not answer; if it was already open without' -> 'NERDS CAD was opened but its control port {} did not answer; if it was already open withou'
+rust  crates/mcp/src/backend.rs:176  'CADCraft is not answering at {addr} ({e}). Open CADCraft with its control port (`--control' -> 'NERDS CAD is not answering at {addr} ({e}). Open NERDS CAD with its control port (`--contr'
+kept  crates/mcp/src/backend.rs:185  let ok = std::process::Command::new("open").args(["-a", "CADCraft", "--args", "--control", port]).status()?.success();
+rust  crates/mcp/src/backend.rs:186  'could not open CADCraft (is it in Applications?)' -> 'could not open NERDS CAD (is it in Applications?)'
+rust  crates/mcp/src/backend.rs:188  'CADCraft is not running; start it with `cadcraft --control {port}`' -> 'NERDS CAD is not running; start it with `cadcraft --control {port}`'
+rust  crates/mcp/src/backend.rs:230  'CADCraft at {}: {e}; the reply was lost, so `{method}` may or may not have been applied. I' -> 'NERDS CAD at {}: {e}; the reply was lost, so `{method}` may or may not have been applied. '
+rust  crates/mcp/src/backend.rs:239  'CADCraft at {}: {e}' -> 'NERDS CAD at {}: {e}'
+rust  crates/mcp/src/backend.rs:279  "{e}: CADCraft did not start `{method}` and won't; it is safe to send again" -> "{e}: NERDS CAD did not start `{method}` and won't; it is safe to send again"
+rust  crates/mcp/src/backend.rs:289  'connected to CADCraft at {}' -> 'connected to NERDS CAD at {}'
+rust  crates/mcp/src/backend.rs:444  'headless CADCraft session' -> 'headless NERDS CAD session'
+rust  crates/mcp/src/server.rs:18  'CADCraft is a 2D/3D CAD drafting app (an AutoCAD clone). Coordinates are drawing units, \\\n' -> 'NERDS CAD is a 2D/3D CAD drafting app (an AutoCAD clone). Coordinates are drawing units, \\'
+kept  crates/mcp/src/server.rs:107  "serverInfo": {"name": "cadcraft", "title": "CADCraft", "version": env!("CARGO_PKG_VERSION")},
+rust  crates/mcp/src/tools.rs:11  'Type one line at the CADCraft command line, exactly as a user would at an AutoCAD-style pr' -> 'Type one line at the NERDS CAD command line, exactly as a user would at an AutoCAD-style p'
+rust  crates/mcp/src/tools.rs:40  'Screenshot the CADCraft window (PNG).' -> 'Screenshot the NERDS CAD window (PNG).'
+rust  crates/ui-egui/src/autosave.rs:160  'CADCraft did not close normally. These drawings were autosaved:' -> 'NERDS CAD did not close normally. These drawings were autosaved:'
+rust  crates/ui-egui/src/autosave.rs:217  'The graphics device stopped working (a driver reset or a GPU that stopped responding). CAD' -> 'The graphics device stopped working (a driver reset or a GPU that stopped responding). NER'
+rust  crates/ui-egui/src/autosave.rs:220  'The graphics driver reported an error{times}. CADCraft kept running, but the drawing may n' -> 'The graphics driver reported an error{times}. NERDS CAD kept running, but the drawing may '
+rust  crates/ui-egui/src/autosave.rs:228  'Save your work and restart CADCraft. Recovery copies are offered at the next start if need' -> 'Save your work and restart NERDS CAD. Recovery copies are offered at the next start if nee'
+rust  crates/ui-egui/src/chrome.rs:75  'CADCraft      {}{}' -> 'NERDS CAD      {}{}'
+rust  crates/ui-egui/src/chrome.rs:76  'CADCraft      {}' -> 'NERDS CAD      {}'
+rust  crates/ui-egui/src/chrome.rs:538  'CADCraft' -> 'NERDS CAD'
+rust  crates/ui-egui/src/closing.rs:209  'CADCraft' -> 'NERDS CAD'
+rust  crates/ui-egui/src/dialogs.rs:324  'About CADCraft' -> 'About NERDS CAD'
+rust  crates/ui-egui/src/dialogs.rs:325  'About CADCraft' -> 'About NERDS CAD'
+rust  crates/ui-egui/src/dialogs.rs:344  'CADCraft' -> 'NERDS CAD'
+rust  crates/ui-egui/src/lib.rs:586  'Open: {name} is {:.1} MB, larger than the {} MB CADCraft opens in the browser' -> 'Open: {name} is {:.1} MB, larger than the {} MB NERDS CAD opens in the browser'
+rust  crates/ui-egui/src/menus.rs:68  'About CADCraft' -> 'About NERDS CAD'
+rust  crates/ui-egui/src/menus.rs:68  'About CADCraft' -> 'About NERDS CAD'
+rust  crates/ui-egui/src/menus.rs:69  'CADCraft Help' -> 'NERDS CAD Help'
+rust  crates/ui-egui/src/menus.rs:76  'Quit CADCraft' -> 'Quit NERDS CAD'
+rust  crates/ui-egui/src/options/dialog.rs:578  'CADCraft keeps these preferences, object snap modes and drafting toggles for your user acc' -> 'NERDS CAD keeps these preferences, object snap modes and drafting toggles for your user ac'
+rust  crates/ui-egui/src/updates_ui.rs:49  'CADCraft is up to date.' -> 'NERDS CAD is up to date.'
+rust  crates/ui-egui/src/viewcube.rs:186  "CADCraft draws in the World Coordinate System; user coordinate systems aren't available ye" -> "NERDS CAD draws in the World Coordinate System; user coordinate systems aren't available y"
+i18n  crates/ui-egui/src/i18n/ar.tsv  (6 lines)
+i18n  crates/ui-egui/src/i18n/bs.tsv  (7 lines)
+i18n  crates/ui-egui/src/i18n/cs.tsv  (7 lines)
+i18n  crates/ui-egui/src/i18n/de.tsv  (5 lines)
+i18n  crates/ui-egui/src/i18n/el.tsv  (7 lines)
+i18n  crates/ui-egui/src/i18n/es.tsv  (7 lines)
+i18n  crates/ui-egui/src/i18n/fr.tsv  (5 lines)
+i18n  crates/ui-egui/src/i18n/hu.tsv  (6 lines)
+i18n  crates/ui-egui/src/i18n/it.tsv  (6 lines)
+i18n  crates/ui-egui/src/i18n/ko.tsv  (7 lines)
+i18n  crates/ui-egui/src/i18n/pt_br.tsv  (7 lines)
+i18n  crates/ui-egui/src/i18n/ru.tsv  (5 lines)
+i18n  crates/ui-egui/src/i18n/sv.tsv  (7 lines)
+i18n  crates/ui-egui/src/i18n/tr.tsv  (7 lines)
+i18n  crates/ui-egui/src/i18n/uk.tsv  (6 lines)
+i18n  crates/ui-egui/src/i18n/zh.tsv  (7 lines)
+win   packaging/windows/cadcraft.wxs  (7 lines)
+win   packaging/windows/package.ps1  (1 lines)
+mac   packaging/macos/Info.plist.in  (2 lines)
+mac   packaging/macos/dmg/generate.py  (2 lines)
+mac   packaging/macos/package.sh  (5 lines)
+patch crates/mcp/src/backend.rs: '.args(["-a", "CADCraft", "--args"' -> '.args(["-a", "NERDS CAD", "--args"'

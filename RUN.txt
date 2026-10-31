@@ -1,0 +1,3 @@
+run: https://github.com/nerds-coach/nerds-cad/actions/runs/41173451767
+commit: 1d9283da7695d149a9d0b8cf3f51d4abe003e641
+job: macos
