@@ -1,0 +1,9 @@
+total 273964
+-rw-r--r-- 1 runner runner      413 Nov  7 06:13 SHA256SUMS.txt
+-rw-r--r-- 1 runner runner 83958383 Nov  7 06:13 cadcraft-0.18.0-macos-universal.dmg
+-rw-r--r-- 1 runner runner 74358578 Nov  7 06:13 cadcraft-0.18.0-windows-x64-portable.zip
+-rw-r--r-- 1 runner runner 59445248 Nov  7 06:13 cadcraft-0.18.0-windows-x64.msi
+-rw-r--r-- 1 runner runner 62771069 Nov  7 06:13 cadcraft-cli-0.18.0-macos-universal.zip
+10574 /home/runner/work/_temp/notes.md
+https://github.com/nerds-coach/nerds-cad/releases/tag/untagged-f692e5d058aba1e41cb2
+https://github.com/nerds-coach/nerds-cad/releases/tag/v0.18.0
