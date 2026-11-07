@@ -1,0 +1,40 @@
+NERDS CAD 0.18.0 for Windows x64 (x86_64-pc-windows-msvc)
+==> cargo build (x86_64-pc-windows-msvc)
+[1m[92m    Updating[0m crates.io index
+[1m[92m    Updating[0m git repository `https://github.com/storytold/craft-libs`
+[1m[92m Downloading[0m crates ...
+[1m[92m  Downloaded[0m enum-map-derive v1.0.1
+[1m[92m  Downloaded[0m enum-map v3.1.0
+[1m[92m   Compiling[0m cadcraft-geom v0.18.0 (D:\a\nerds-cad\nerds-cad\crates\geom)
+[1m[92m   Compiling[0m cadcraft-color v0.18.0 (D:\a\nerds-cad\nerds-cad\crates\color)
+[1m[92m   Compiling[0m cadcraft-fonts v0.18.0 (D:\a\nerds-cad\nerds-cad\crates\fonts)
+[1m[92m   Compiling[0m cadcraft-dxf v0.18.0 (D:\a\nerds-cad\nerds-cad\crates\dxf)
+[1m[92m   Compiling[0m cadcraft-doc v0.18.0 (D:\a\nerds-cad\nerds-cad\crates\doc)
+[1m[92m   Compiling[0m cadcraft-dwg v0.18.0 (D:\a\nerds-cad\nerds-cad\crates\dwg)
+[1m[93mwarning[0m: cadcraft-fonts@0.18.0: craft-fonts: not embedding Noto Sans CJK SC Regular (AGENTS.md: no Adobe fonts)
+[1m[92m   Compiling[0m enum-map-derive v1.0.1
+[1m[92m   Compiling[0m enum-map v3.1.0
+[1m[92m   Compiling[0m cadcraft-ui-egui v0.18.0 (D:\a\nerds-cad\nerds-cad\crates\ui-egui)
+[1m[92m   Compiling[0m cadcraft v0.18.0 (D:\a\nerds-cad\nerds-cad\apps\cadcraft)
+[1m[92m   Compiling[0m egui_extras v0.37.0 (https://github.com/storytold/egui.git?rev=6d518fc799681571963842f95b55a6b68431b15a#6d518fc7)
+[1m[92m   Compiling[0m cadcraft-render v0.18.0 (D:\a\nerds-cad\nerds-cad\crates\render)
+[1m[92m   Compiling[0m cadcraft-constraints v0.18.0 (D:\a\nerds-cad\nerds-cad\crates\constraints)
+[1m[92m   Compiling[0m cadcraft-engine v0.18.0 (D:\a\nerds-cad\nerds-cad\crates\engine)
+[1m[92m   Compiling[0m cadcraft-io v0.18.0 (D:\a\nerds-cad\nerds-cad\crates\io)
+[1m[92m   Compiling[0m cadcraft-mcp v0.18.0 (D:\a\nerds-cad\nerds-cad\crates\mcp)
+[1m[92m   Compiling[0m cadcraft-cli v0.18.0 (D:\a\nerds-cad\nerds-cad\apps\cadcraft-cli)
+[1m[92m    Finished[0m `release` profile [optimized] target(s) in 9m 32s
+ok cadcraft.exe: x64, PE subsystem 2
+ok cadcraft-cli.exe: x64, PE subsystem 3
+::warning::Windows signing secrets not set (WINDOWS_CERTIFICATE or AZURE_*): leaving unsigned: D:\a\nerds-cad\nerds-cad\target\windows-package\x64\cadcraft.exe, D:\a\nerds-cad\nerds-cad\target\windows-package\x64\cadcraft-cli.exe
+==> wix build
+PASS CADCraft: 24 scope cases, folder preservation, action sequencing and registry contract. No installation performed.
+::warning::Windows signing secrets not set (WINDOWS_CERTIFICATE or AZURE_*): leaving unsigned: D:\a\nerds-cad\nerds-cad\dist\release\cadcraft-0.18.0-windows-x64.msi
+==> cadcraft-cli --version
+cadcraft-cli 0.18.0 (32238e83c2c8bf643994132883e94bc96961f649)
+
+[32;1mName                                    [0m[32;1m   Length[0m
+[32;1m----                                    [0m [32;1m  ------[0m
+cadcraft-0.18.0-windows-x64.msi          59445248
+cadcraft-0.18.0-windows-x64-portable.zip 74358578
+
