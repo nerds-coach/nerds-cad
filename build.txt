@@ -1,0 +1,62 @@
+::warning::macOS: ad-hoc signing (no MACOS_SIGN_IDENTITY); artifacts are not notarized
+==> CADCraft 0.20.1 for macOS (universal), identity: -, notarize: 0
+[1m[92m    Updating[0m crates.io index
+[1m[92m    Updating[0m git repository `https://github.com/storytold/craft-libs`
+[1m[92m   Compiling[0m icu_segmenter_data v2.3.0
+[1m[92m   Compiling[0m cadcraft-fonts v0.20.1 (/Users/runner/work/nerds-cad/nerds-cad/crates/fonts)
+[1m[92m   Compiling[0m cadcraft-dwg v0.20.1 (/Users/runner/work/nerds-cad/nerds-cad/crates/dwg)
+[1m[92m   Compiling[0m rustix v1.1.5
+[1m[92m   Compiling[0m cadcraft-geom v0.20.1 (/Users/runner/work/nerds-cad/nerds-cad/crates/geom)
+[1m[92m   Compiling[0m core_maths v0.1.1
+[1m[92m   Compiling[0m cadcraft-color v0.20.1 (/Users/runner/work/nerds-cad/nerds-cad/crates/color)
+[1m[92m   Compiling[0m cadcraft-doc v0.20.1 (/Users/runner/work/nerds-cad/nerds-cad/crates/doc)
+[1m[92m   Compiling[0m icu_segmenter v2.3.0
+[1m[92m   Compiling[0m cadcraft-dxf v0.20.1 (/Users/runner/work/nerds-cad/nerds-cad/crates/dxf)
+[1m[33mwarning[0m: cadcraft-fonts@0.20.1: craft-fonts: not embedding Noto Sans CJK SC Regular (AGENTS.md: no Adobe fonts)
+[1m[33mwarning[0m: cadcraft-fonts@0.20.1: craft-fonts: not embedding Noto Sans CJK SC Regular (AGENTS.md: no Adobe fonts)
+[1m[92m   Compiling[0m cadcraft-render v0.20.1 (/Users/runner/work/nerds-cad/nerds-cad/crates/render)
+[1m[92m   Compiling[0m cadcraft-ui-egui v0.20.1 (/Users/runner/work/nerds-cad/nerds-cad/crates/ui-egui)
+[1m[92m   Compiling[0m cadcraft-constraints v0.20.1 (/Users/runner/work/nerds-cad/nerds-cad/crates/constraints)
+[1m[92m   Compiling[0m cadcraft-engine v0.20.1 (/Users/runner/work/nerds-cad/nerds-cad/crates/engine)
+[1m[92m   Compiling[0m cadcraft v0.20.1 (/Users/runner/work/nerds-cad/nerds-cad/apps/cadcraft)
+[1m[92m   Compiling[0m cadcraft-io v0.20.1 (/Users/runner/work/nerds-cad/nerds-cad/crates/io)
+[1m[92m   Compiling[0m tempfile v3.27.0
+[1m[92m   Compiling[0m cadcraft-mcp v0.20.1 (/Users/runner/work/nerds-cad/nerds-cad/crates/mcp)
+[1m[92m   Compiling[0m craft-update v0.1.0 (https://github.com/storytold/craft-libs?rev=6e03f65bf45181db77ba6229716e6624db9eb25b#6e03f65b)
+[1m[92m   Compiling[0m cadcraft-cli v0.20.1 (/Users/runner/work/nerds-cad/nerds-cad/apps/cadcraft-cli)
+[1m[92m    Finished[0m `release` profile [optimized] target(s) in 16m 00s
+Architectures in the fat file: /Users/runner/work/nerds-cad/nerds-cad/target/macos-package/bin/cadcraft are: x86_64 arm64 
+Architectures in the fat file: /Users/runner/work/nerds-cad/nerds-cad/target/macos-package/bin/cadcraft-cli are: x86_64 arm64 
+==> assembling /Users/runner/work/nerds-cad/nerds-cad/target/macos-package/NERDS CAD.app
+/Users/runner/work/nerds-cad/nerds-cad/target/macos-package/NERDS CAD.app/Contents/Info.plist: OK
+/Users/runner/work/nerds-cad/nerds-cad/target/macos-package/NERDS CAD.app/Contents/MacOS/CADCraft: replacing existing signature
+/Users/runner/work/nerds-cad/nerds-cad/target/macos-package/NERDS CAD.app: replacing existing signature
+/Users/runner/work/nerds-cad/nerds-cad/target/macos-package/NERDS CAD.app: valid on disk
+/Users/runner/work/nerds-cad/nerds-cad/target/macos-package/NERDS CAD.app: satisfies its Designated Requirement
+==> building /Users/runner/work/nerds-cad/nerds-cad/dist/release/cadcraft-0.20.1-macos-universal.dmg
+Creating hybrid image...
+
+Preparing imaging engine…
+Reading Driver Descriptor Map (DDM : 0)…
+   (CRC32 $DC0A5C9C: Driver Descriptor Map (DDM : 0))
+Reading Apple (Apple_partition_map : 1)…
+   (CRC32 $224D4524: Apple (Apple_partition_map : 1))
+Reading DiscRecording 9.0.3d5 (Apple_HFS : 2)…
+   (CRC32 $083B9448: DiscRecording 9.0.3d5 (Apple_HFS : 2))
+Adding resources…
+Elapsed Time:  4.543s
+File size: 84735901 bytes, Checksum: CRC32 $3ABEF6C1
+Sectors processed: 372144, 372141 compressed
+Speed: 40.0MB/s
+Savings: 55.5%
+created: /Users/runner/work/nerds-cad/nerds-cad/dist/release/cadcraft-0.20.1-macos-universal.dmg
+/Users/runner/work/nerds-cad/nerds-cad/dist/release/cadcraft-0.20.1-macos-universal.dmg: valid on disk
+/Users/runner/work/nerds-cad/nerds-cad/dist/release/cadcraft-0.20.1-macos-universal.dmg: satisfies its Designated Requirement
+==> building /Users/runner/work/nerds-cad/nerds-cad/dist/release/cadcraft-cli-0.20.1-macos-universal.zip
+/Users/runner/work/nerds-cad/nerds-cad/target/macos-package/cadcraft-cli-0.20.1-macos-universal/cadcraft-cli: replacing existing signature
+/Users/runner/work/nerds-cad/nerds-cad/target/macos-package/cadcraft-cli-0.20.1-macos-universal/cadcraft-cli: valid on disk
+/Users/runner/work/nerds-cad/nerds-cad/target/macos-package/cadcraft-cli-0.20.1-macos-universal/cadcraft-cli: satisfies its Designated Requirement
+cadcraft-cli 0.20.1 (7526dc62c14e71b3c8d46e73bbf1fa29ef506af1)
+==> done
+-rw-r--r--@ 1 runner  staff    81M Nov 12 01:01 /Users/runner/work/nerds-cad/nerds-cad/dist/release/cadcraft-0.20.1-macos-universal.dmg
+-rw-r--r--  1 runner  staff    60M Nov 12 01:01 /Users/runner/work/nerds-cad/nerds-cad/dist/release/cadcraft-cli-0.20.1-macos-universal.zip
