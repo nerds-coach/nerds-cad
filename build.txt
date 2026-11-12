@@ -1,0 +1,38 @@
+NERDS CAD 0.20.1 for Windows x64 (x86_64-pc-windows-msvc)
+==> cargo build (x86_64-pc-windows-msvc)
+[1m[92m    Updating[0m crates.io index
+[1m[92m    Updating[0m git repository `https://github.com/storytold/craft-libs`
+[1m[92m   Compiling[0m icu_segmenter_data v2.3.0
+[1m[92m   Compiling[0m cadcraft-geom v0.20.1 (D:\a\nerds-cad\nerds-cad\crates\geom)
+[1m[92m   Compiling[0m core_maths v0.1.1
+[1m[92m   Compiling[0m cadcraft-color v0.20.1 (D:\a\nerds-cad\nerds-cad\crates\color)
+[1m[92m   Compiling[0m cadcraft-fonts v0.20.1 (D:\a\nerds-cad\nerds-cad\crates\fonts)
+[1m[92m   Compiling[0m cadcraft-doc v0.20.1 (D:\a\nerds-cad\nerds-cad\crates\doc)
+[1m[93mwarning[0m: cadcraft-fonts@0.20.1: craft-fonts: not embedding Noto Sans CJK SC Regular (AGENTS.md: no Adobe fonts)
+[1m[92m   Compiling[0m cadcraft-dxf v0.20.1 (D:\a\nerds-cad\nerds-cad\crates\dxf)
+[1m[92m   Compiling[0m icu_segmenter v2.3.0
+[1m[92m   Compiling[0m cadcraft-dwg v0.20.1 (D:\a\nerds-cad\nerds-cad\crates\dwg)
+[1m[92m   Compiling[0m cadcraft-ui-egui v0.20.1 (D:\a\nerds-cad\nerds-cad\crates\ui-egui)
+[1m[92m   Compiling[0m craft-update v0.1.0 (https://github.com/storytold/craft-libs?rev=6e03f65bf45181db77ba6229716e6624db9eb25b#6e03f65b)
+[1m[92m   Compiling[0m cadcraft-render v0.20.1 (D:\a\nerds-cad\nerds-cad\crates\render)
+[1m[92m   Compiling[0m cadcraft-constraints v0.20.1 (D:\a\nerds-cad\nerds-cad\crates\constraints)
+[1m[92m   Compiling[0m cadcraft-io v0.20.1 (D:\a\nerds-cad\nerds-cad\crates\io)
+[1m[92m   Compiling[0m cadcraft-engine v0.20.1 (D:\a\nerds-cad\nerds-cad\crates\engine)
+[1m[92m   Compiling[0m cadcraft v0.20.1 (D:\a\nerds-cad\nerds-cad\apps\cadcraft)
+[1m[92m   Compiling[0m cadcraft-mcp v0.20.1 (D:\a\nerds-cad\nerds-cad\crates\mcp)
+[1m[92m   Compiling[0m cadcraft-cli v0.20.1 (D:\a\nerds-cad\nerds-cad\apps\cadcraft-cli)
+[1m[92m    Finished[0m `release` profile [optimized] target(s) in 13m 37s
+ok cadcraft.exe: x64, PE subsystem 2
+ok cadcraft-cli.exe: x64, PE subsystem 3
+::warning::Windows signing secrets not set (WINDOWS_CERTIFICATE or AZURE_*): leaving unsigned: D:\a\nerds-cad\nerds-cad\target\windows-package\x64\cadcraft.exe, D:\a\nerds-cad\nerds-cad\target\windows-package\x64\cadcraft-cli.exe
+==> wix build
+PASS CADCraft: 24 scope cases, folder preservation, action sequencing and registry contract. No installation performed.
+::warning::Windows signing secrets not set (WINDOWS_CERTIFICATE or AZURE_*): leaving unsigned: D:\a\nerds-cad\nerds-cad\dist\release\cadcraft-0.20.1-windows-x64.msi
+==> cadcraft-cli --version
+cadcraft-cli 0.20.1 (7526dc62c14e71b3c8d46e73bbf1fa29ef506af1)
+
+[32;1mName                                    [0m[32;1m   Length[0m
+[32;1m----                                    [0m [32;1m  ------[0m
+cadcraft-0.20.1-windows-x64.msi          59437056
+cadcraft-0.20.1-windows-x64-portable.zip 74393354
+
